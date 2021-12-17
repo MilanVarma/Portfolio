@@ -1,0 +1,155 @@
+.HomeBackground{
+    width: 80%;
+    margin: 150px auto 0px auto;
+    text-align: center;
+}
+
+.HomeBackground img{
+    border-radius: 100%;
+    border:5px solid #06a4ff;
+    animation: slideInRight 1.5s ease-in-out forwards
+}
+
+.HomeBackground p{
+    font-size: 25px;
+    color:floralwhite;
+    animation: slideInLeft 1.5s ease-in-out forwards
+    
+}
+
+.HomeBackground span{
+    font-size: 48px;
+    color: #06a4ff;
+    
+}
+
+.BasicAbout{
+    text-align: center;
+    color:floralwhite;
+    font-size: large;
+    animation: slideInLeft 1.5s ease-in-out forwards
+    
+}
+
+.MoreAboutMe_Button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    animation: slideInLeft 1.5s ease-in-out forwards
+}
+
+.SocialIcons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    animation: slideUp 1.5s ease-in-out forwards
+}
+
+@keyframes slideInRight {
+    0% {
+      transform: translateX(500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 1000px)
+{
+    .HomeBackground{
+       
+        margin: 150px auto 0px auto;
+        text-align: center;
+    }
+
+    .HomeBackground img{
+        width: 30%;
+        height: 190px;
+        border-radius: 100%;
+        border:5px solid #06a4ff;
+    }
+
+    .BasicAbout{
+        text-align: center;
+        color:floralwhite;
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+        
+    }
+
+    .MoreAboutMe_Button{
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+        
+    }
+
+    .SocialIcons{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px){
+    .HomeBackground{
+       
+        margin: 130px auto 0px auto;
+        text-align: center;
+    }
+
+    .HomeBackground img{
+        width: 35%;
+        height: 120px;
+        border-radius: 100%;
+        border:5px solid #06a4ff;
+    }
+
+    .HomeBackground p{
+        font-size: 20px;
+        color:floralwhite;
+    }
+    
+    .HomeBackground span{
+        font-size: 35px;
+        color: #06a4ff;
+        
+    }
+
+    .BasicAbout{
+        text-align: center;
+        color:floralwhite;
+        font-size: 13.5px;
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .SocialIcons{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+
+    
+}
