@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.1a56a90b.css",
+    "main.js": "/Portfolio/static/js/main.7723a24b.js",
+    "static/js/787.9b9c0edf.chunk.js": "/Portfolio/static/js/787.9b9c0edf.chunk.js",
+    "static/media/Profile.jpeg": "/Portfolio/static/media/Profile.5db05f2383f3d199a89a.jpeg",
+    "static/media/Guvilogo.png": "/Portfolio/static/media/Guvilogo.49dd6a02f4196a282242.png",
+    "static/media/VITlogo.png": "/Portfolio/static/media/VITlogo.641586a497500c0860ec.png",
+    "index.html": "/Portfolio/index.html",
+    "main.1a56a90b.css.map": "/Portfolio/static/css/main.1a56a90b.css.map",
+    "main.7723a24b.js.map": "/Portfolio/static/js/main.7723a24b.js.map",
+    "787.9b9c0edf.chunk.js.map": "/Portfolio/static/js/787.9b9c0edf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a56a90b.css",
+    "static/js/main.7723a24b.js"
+  ]
+}
